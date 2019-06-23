@@ -150,6 +150,18 @@ h4{
   color: #71B100;
   font-weight: 700;
 }
+.icono_caracteristicas{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icono_caracteristicas li{
+  display: flex;
+}
+.icono_caracteristicas li img{
+  margin-right: 2rem;
+}
 .ver-todas{
   display: flex;
   justify-content: flex-end;
