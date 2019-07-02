@@ -56,6 +56,9 @@ h4{
 }
 
 /*Botones*/
+.boton:hover{
+ cursor: pointer;
+}
 
 .boton{
   color: #ffffff;
@@ -66,6 +69,7 @@ h4{
   margin-top: 3rem;
   display: inline-block;
   text-align: center;
+  border: none;
 }
 .boton-amarillo{
   background-color: #E08709;
@@ -103,13 +107,13 @@ h4{
 
 .barra{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between; /*objecto a la izquierda y a la derecha*/
+  align-items: center;/*centra los objectos*/
   padding-top: 3rem;
 }
 /*Navegacion*/
 
-.navegacion a:hover{
+.navegacion a:hover{ /*hove es un elemento*/
   color: #71B100;
 }
 
@@ -230,7 +234,7 @@ h4{
     margin: 0;
     line-height: 1.4;
 }
-.texto-entrada h4::after{
+.texto-entrada h4::after{ /*after en un elemento*/ /*Despues*/
   content: '';
   display: block;
   width: 15rem;
@@ -252,12 +256,12 @@ h4{
 .testimoniales p{
   text-align: right;
 }
-.testimoniales blockquote::before{
+.testimoniales blockquote::before{ /*Elemento antes*/
   content: '';
   background-image: url(../img/comilla.svg);
   width: 4rem;
   height: 4rem;
-  position: absolute;
+  position: absolute; /*Posicionar un elemento*/
   left:-2rem;
 }
 .testimoniales blockquote{
